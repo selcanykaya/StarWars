@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --star-wars-yellow: #FFE81F;
+  --star-wars-black: #000000;
+  --space-gray: #1a1a1a;
+  --card-bg: #2a2a2a;
+  --text-light: #ffffff;
+  --text-gray: #cccccc;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: var(--star-wars-black);
+  color: var(--text-light);
+  line-height: 1.6;
+}
+
+#root {
+  min-height: 100vh;
+}
